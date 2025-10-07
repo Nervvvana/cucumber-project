@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6505b346-ebfc-477c-8aff-eeb4b0d72bd6" name="Changes" comment="" />
+    <list default="true" id="6505b346-ebfc-477c-8aff-eeb4b0d72bd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/qualit_plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/hooks/Hooks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,22 +42,47 @@
     "Cucumber Java.Scenario: Ввод невалидного имени со спец-символами.executor": "Run",
     "Cucumber Java.Scenario: Чек-бокс согласия с Privacy Policy не отмечен.executor": "Run",
     "JUnit.TestRunner.executor": "Run",
+    "Maven.cucumber-project [allure:serve].executor": "Run",
+    "Maven.cucumber-project [clean,test].executor": "Run",
+    "Maven.cucumber-project [clean].executor": "Run",
+    "Maven.cucumber-project [clear,test].executor": "Run",
+    "Maven.cucumber-project [compile].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/work/ibs/Cucumber/chat/cucumber-project",
+    "last_opened_file_path": "D:/work/ibs/Cucumber/cucumber-project/src/test/resources/drivers",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.language.Kotlin"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\ibs\Cucumber\cucumber-project\src\test\resources\drivers" />
+      <recent name="D:\work\ibs\Cucumber\cucumber-project\src\test\java\dev\nervvvana\qa\managers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\ibs\Cucumber\cucumber-project\src\test\resources\drivers" />
       <recent name="D:\work\ibs\Cucumber\cucumber-project\src\test\resources" />
       <recent name="D:\work\ibs\Cucumber\cucumber-project\src\test\resources\features" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.nervvvana.qa.utils" />
+      <recent name="dev.nervvvana.qa.managers" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clear test" />
+      <command value="mvn clean test" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Ввод E-Mail, который не содержит имя пользователя">
     <configuration name="Scenario: Ввод невалидного имени со спец-символами" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signupForm.feature" />
@@ -73,6 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Ввод E-Mail, который не содержит имя пользователя" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signupForm.feature" />
+      <option name="GLUE" value="dev.nervvvana.qa.steps dev.nervvvana.qa.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-project" />
+      <option name="NAME_FILTER" value="^Ввод E\-Mail\, который не содержит имя пользователя$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Ввод E\-Mail\, который не содержит имя пользователя$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Ввод E-Mail, который не содержит имя пользователя" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Ввод имени, которое содержит спецсимволы" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signupForm.feature" />
@@ -90,7 +139,7 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Scenario: Чек-бокс согласия с Privacy Policy не отмечен" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -130,8 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Ввод E-Mail, который не содержит имя пользователя" />
         <item itemvalue="Cucumber Java.Scenario: Ввод имени, которое содержит спецсимволы" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Чек-бокс согласия с Privacy Policy не отмечен" />
         <item itemvalue="Cucumber Java.Scenario: Ввод невалидного имени со спец-символами" />
       </list>
