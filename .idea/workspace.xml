@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6505b346-ebfc-477c-8aff-eeb4b0d72bd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/managers/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/managers/PropertyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/nervvvana/qa/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Ввод E-Mail, который не содержит имя пользователя">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: Ввод невалидного имени со спец-символами" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signupForm.feature" />
@@ -183,9 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Ввод E-Mail, который не содержит имя пользователя" />
         <item itemvalue="Cucumber Java.Scenario: Ввод имени, которое содержит спецсимволы" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Чек-бокс согласия с Privacy Policy не отмечен" />
         <item itemvalue="Cucumber Java.Scenario: Ввод невалидного имени со спец-символами" />
       </list>
